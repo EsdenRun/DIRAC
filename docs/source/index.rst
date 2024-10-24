@@ -26,8 +26,6 @@ For more details about the DIRAC framework, please check out our `publication <h
 
    This project is under active development.
 
-Contents
---------
 
 .. toctree::
    :maxdepth: 2
