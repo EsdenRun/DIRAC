@@ -1,7 +1,7 @@
 Welcome to DIRAC's documentation!
 ===================================
 
-**DIRAC** (/lu'make/) is a Python library for cooks and food lovers
+**DIRAC** (/dɪˈræk/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
