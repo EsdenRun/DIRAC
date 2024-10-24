@@ -2,7 +2,7 @@ Welcome to DIRAC's documentation!
 ===================================
 
 .. image:: ../Figs/logo.png
-   :width: 140
+   :width: 200
    :alt: DIRAC icon
    :align: right
 
