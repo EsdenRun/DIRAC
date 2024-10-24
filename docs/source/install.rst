@@ -18,7 +18,7 @@ Or, it can also be installed via pip:
 .. code-block:: bash
     :linenos:
 
-    pip install scglue
+    pip install dirac
 
 .. note::
     To avoid potential dependency conflicts, installing within a
