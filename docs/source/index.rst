@@ -6,7 +6,7 @@ Welcome to DIRAC's documentation!
    :alt: DIRAC icon
    :align: right
 
-**scglue** implements the GLUE (**G**\ raph **L**\ inked **U**\ nified **E**\ mbedding) model, for unpaired single-cell multi-omics data integration.
+''DIRAC'' (**G**\ raph **L**\ inked **U**\ nified **E**\ mbedding) model, for unpaired single-cell multi-omics data integration.
 
 GLUE is a flexible framework that utilizes prior knowledge about feature relations to bridge the gap between different feature spaces during unpaired multi-modal data integration.
 
