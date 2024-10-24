@@ -5,13 +5,13 @@ Installation guide
 Main package
 ************
 
-The ``scglue`` package can be installed via conda using one of the following commands:
+The ``DIRAC`` package can be installed via conda using one of the following commands:
 
 .. code-block:: bash
     :linenos:
 
-    conda install -c conda-forge -c bioconda scglue  # CPU only
-    conda install -c conda-forge -c bioconda scglue pytorch-gpu  # With GPU support
+    conda install -c conda-forge -c bioconda dirac  # CPU only
+    conda install -c conda-forge -c bioconda dirac pytorch-gpu  # With GPU support
 
 Or, it can also be installed via pip:
 
@@ -30,9 +30,9 @@ Or, it can also be installed via pip:
 Optional dependencies
 *********************
 
-Some functions in the ``scglue`` package use metacell aggregation via k-Means clustering,
+Some functions in the ``DIRAC`` package use metacell aggregation via k-Means clustering,
 which can receive significant speed up with the `faiss <https://github.com/facebookresearch/faiss>`__ package.
 
 You may install ``faiss`` following the official `guide <https://github.com/facebookresearch/faiss/blob/main/INSTALL.md>`__.
 
-Now you are all set. Proceed to `tutorials <tutorials.rst>`__ for how to use the ``scglue`` package.
+Now you are all set. Proceed to `tutorials <tutorials.rst>`__ for how to use the ``DIRAC`` package.
