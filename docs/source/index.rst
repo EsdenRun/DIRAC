@@ -4,7 +4,7 @@ Welcome to DIRAC's documentation!
 .. image:: ../Figs/logo.png
    :width: 140
    :alt: DIRAC icon
-   :algin: left
+   :align: right
 
 **DIRAC** (/dɪˈræk/) is a Python library for spatially resolved integration of multi-omics.
 
