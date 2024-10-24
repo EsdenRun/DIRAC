@@ -18,7 +18,7 @@ DIRAC primarily includes two integration paradigms: vertical integration and hor
    :align: center
 
 
-To get started with ``DIRAC``, check out the `installation guide <./source/install.rst>`__ and `tutorials <./source/tutorials.rst>`__.
+To get started with ``DIRAC``, check out the `installation guide <install.rst>`__ and `tutorials <tutorials.rst>`__.
 
 For more details about the DIRAC framework, please check out our `publication <https://doi.org/10.1038/s41587-022-01284-4>`__.
 
