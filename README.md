@@ -19,7 +19,7 @@ For more details, please check out our [publication](https://doi.org/10.1038/s41
 
 ```
 .
-├── dirac                  # Main Python package
+├── sodirac                  # Main Python package
 ├── data                    # Data files
 ├── evaluation              # Method evaluation pipelines
 ├── experiments             # Experiments and case studies
@@ -38,14 +38,13 @@ For more details, please check out our [publication](https://doi.org/10.1038/s41
 The `spagnns` package can be installed via conda using one of the following commands:
 
 ```sh
-conda install -c conda-forge -c bioconda dirac  # CPU only
-conda install -c conda-forge -c bioconda dirac pytorch-gpu  # With GPU support
+conda install -c conda-forge -c bioconda sodirac  
 ```
 
 Or, it can also be installed via pip:
 
 ```sh
-pip install spagnns
+pip install sodirac
 ```
 
 > Installing within a
