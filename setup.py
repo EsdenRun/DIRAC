@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     required = f.read().splitlines()
 
 setup(
-    name="dirac",
+    name="sodirac",
     version="0.1.0",
     description="""Domain Invariant Representation through Adversarial Calibration (DIRAC), a graph neural network to integrate spatial multi-omic data into a unified domain 
     invariant embedding space and to automate cell-type annotation by transferring labels from reference multi-omic single-cell or spatial data. """,
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="XU CHANG",
-    packages=find_packages(include=["dirac"]),
+    packages=find_packages(include=["sodirac"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
