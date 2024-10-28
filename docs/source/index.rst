@@ -26,7 +26,7 @@ For more details about the DIRAC framework, please check out our `publication <h
 
    This project is under active development.
 
-.. include:: _contributors.rst
+#.. include:: _contributors.rst
 
 .. toctree::
    :maxdepth: 2
@@ -39,4 +39,5 @@ For more details about the DIRAC framework, please check out our `publication <h
    release
    dev
    credits
+   _contributors
 
