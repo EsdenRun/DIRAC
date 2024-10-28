@@ -6,7 +6,9 @@ Welcome to DIRAC's documentation!
    :alt: DIRAC icon
    :align: right
 
-``DIRAC`` (**D**\ omain **I**\ nvariant **R**\ epresentation through **A**\ daptive **C**\ alibration), for spatially resolved integration of multi-omics. DIRAC is a Python package, written in `PyTorch <https://pytorch.org/>`_ and based on `scanpy <https://scanpy.readthedocs.io/en/stable/>`_ ,
+``DIRAC`` (**D**\ omain **I**\ nvariant **R**\ epresentation through **A**\ daptive **C**\ alibration), for spatially resolved integration of multi-omics. 
+
+DIRAC is a Python package, written in `PyTorch <https://pytorch.org/>`_ and based on `scanpy <https://scanpy.readthedocs.io/en/stable/>`_ ,
 
 DIRAC is a graph neural network to integrate spatial multi-omic data into a unified domain-invariant embedding space and to automate cell-type annotation by transferring labels from reference multi-omic single-cell or spatial data.
 
