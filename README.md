@@ -35,7 +35,7 @@ For more details, please check out our [publication](https://doi.org/10.1038/s41
 
 ## Installation
 
-The `spagnns` package can be installed via conda using one of the following commands:
+The `DIRAC` package can be installed via conda using one of the following commands:
 
 ```sh
 conda install -c conda-forge -c bioconda sodirac  
