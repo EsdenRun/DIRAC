@@ -10,8 +10,7 @@ The ``DIRAC`` package can be installed via conda using one of the following comm
 .. code-block:: bash
     :linenos:
 
-    conda install -c conda-forge -c bioconda sodirac  # CPU only
-    conda install -c conda-forge -c bioconda dirac pytorch-gpu  # With GPU support
+    conda install -c conda-forge -c bioconda sodirac
 
 Or, it can also be installed via pip:
 
