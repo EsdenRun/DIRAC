@@ -17,7 +17,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'nbsphinx'
+    'nbsphinx',
+    'sphinx_gallery.gen_gallery',
 ]
 
 intersphinx_mapping = {
@@ -27,6 +28,12 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+sphinx_gallery_conf = {
+    'examples_dirs': 'notebooks',  
+    'gallery_dirs': 'auto_gallery', 
+    'filename_pattern': r'^\d+', 
+}
 
 # -- Options for HTML output
 
