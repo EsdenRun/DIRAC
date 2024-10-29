@@ -32,8 +32,8 @@ For more details about the DIRAC framework, please check out our `publication <h
    :maxdepth: 2
    :caption: Contents:
 
-   install
-   tutorials
+   install.rds
+   tutorials.rds
    data
    api
    release
