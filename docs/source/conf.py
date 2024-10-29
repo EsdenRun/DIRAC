@@ -31,5 +31,12 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    'github_url': 'https://github.com/EsdenRun/DIRAC',  
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
