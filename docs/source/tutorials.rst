@@ -25,4 +25,4 @@ The following notebook is available for practical exploration:
    :maxdepth: 1
    :caption: Available Notebooks:
 
-   run_DBit-seq.ipynb
+   ../notebooks/run_DBit-seq.ipynb
