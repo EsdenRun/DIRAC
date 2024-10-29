@@ -16,14 +16,8 @@ Tutorials
    - In this section, we will discuss how DIRAC integrates multi-omics data to unveil the spatial and functional dynamics of immune cells in the mouse spleen.
 
 
-Available Notebooks
--------------------
-
-The following notebook is available for practical exploration:
-
 .. nbgallery::
    :maxdepth: 1
-   :caption: Available Notebooks:
 
    ../notebooks/run_DBit-seq.ipynb
    ../notebooks/run_DLPFC.ipynb
