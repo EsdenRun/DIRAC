@@ -26,3 +26,6 @@ The following notebook is available for practical exploration:
    :caption: Available Notebooks:
 
    ../notebooks/run_DBit-seq.ipynb
+   ../notebooks/run_DLPFC.ipynb
+   ../notebooks/run_Thymus.ipynb
+   ../notebooks/run_spleen.ipynb
