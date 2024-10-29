@@ -32,7 +32,6 @@ templates_path = ['_templates']
 sphinx_gallery_conf = {
     'examples_dirs': 'notebooks',  
     'gallery_dirs': 'auto_gallery', 
-    'filename_pattern': r'^\d+', 
 }
 
 # -- Options for HTML output
