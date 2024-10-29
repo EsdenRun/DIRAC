@@ -1,0 +1,3 @@
+## Notebooks Gallery
+
+This gallery showcases various notebooks demonstrating the functionalities of DIRAC.
