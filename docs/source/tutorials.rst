@@ -6,7 +6,4 @@ An ``DIRAC`` workflow can be divided into the following two stages. We provide s
 
 .. toctree::
 
-    preprocessing.ipynb
-    training.ipynb
-    reginf.ipynb
-    paired.ipynb
+    run_DBit-seq.ipynb
