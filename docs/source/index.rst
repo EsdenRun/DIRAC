@@ -34,10 +34,5 @@ For more details about the DIRAC framework, please check out our `publication <h
 
    install
    tutorials
-   data
-   api
-   release
-   dev
    credits
-   _contributors
 
