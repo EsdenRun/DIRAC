@@ -25,4 +25,5 @@ The following notebook is available for practical exploration:
    :maxdepth: 1
    :caption: Available Notebooks:
 
+   tutorial_tangram_with_squidpy.ipynb
    run_DBit-seq.ipynb
