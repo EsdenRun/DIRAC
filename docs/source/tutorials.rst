@@ -18,7 +18,7 @@ Tutorials
 
 .. toctree::
 
-   ../notebooks/run_DBit-seq.ipynb
-   ../notebooks/run_DLPFC.ipynb
-   ../notebooks/run_Thymus.ipynb
-   ../notebooks/run_spleen.ipynb
+   ../notebooks/run_DIRAC_DBit-seq.ipynb
+   ../notebooks/run_DIRAC_on_DLPFC.ipynb
+   ../notebooks/run_DIRAC_mouse_spleen_bin100.ipynb
+   ../notebooks/run_DIRAC_mouse_spleen_cellbin.ipynb
