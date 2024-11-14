@@ -20,7 +20,7 @@ DIRAC primarily includes two integration paradigms: vertical integration and hor
 
 ![Model architecture](https://raw.githubusercontent.com/EsdenRun/DIRAC/main/docs/Figs/Workflow.png)
 
-For more details, please check out our [publication](https://doi.org/10.1038/s41587-022-01284-4).
+For more details, please check out our [publication](https://github.com/EsdenRun/DIRAC).
 
 ## Directory structure
 
