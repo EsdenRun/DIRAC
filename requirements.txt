@@ -366,11 +366,9 @@ wrapt==1.14.1
 xyzservices==2023.10.1
 yarl==1.9.4
 zipp==3.17.0
-
+torch==2.1.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 
 #--extra-index-url https://download.pytorch.org/whl/cu118
-
-torch==2.1.0+cu118 --find-links https://download.pytorch.org/whl/cu118
 #pyg-lib==0.3.1+pt21cu118
 #torch-cluster==1.6.3+pt21cu118
 #torch-scatter==2.1.2+pt21cu118
