@@ -11,6 +11,11 @@
 
 ## Spatially resolved integration of multi-omics with DIRAC highlights cell-specific remodeling
 
+Tangram is a Python package, written in [PyTorch](https://pytorch.org/) and based on [scanpy](https://scanpy.readthedocs.io/en/stable/), for mapping single-cell (or single-nucleus) gene expression data onto spatial gene expression data. The single-cell dataset and the spatial dataset should be collected from the same anatomical region/tissue type, ideally from a biological replicate, and need to share a set of genes. Tangram aligns the single-cell data in space by fitting gene expression on the shared genes. The best way to familiarize yourself with Tangram is to check out [our tutorial](https://github.com/broadinstitute/Tangram/blob/master/tutorial_tangram_with_squidpy.ipynb) and [our documentation](https://tangram-sc.readthedocs.io/en/latest/index.html). [![colab tutorial](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jP3M7wu-YJrtDzvHSdK5HIdee0SNVs0b?usp=sharing)\
+If you don't use squidpy yet, check out our [previous tutorial.](https://github.com/broadinstitute/Tangram/blob/master/tutorial_tangram_without_squidpy.ipynb)
+
+![Tangram_overview](https://raw.githubusercontent.com/broadinstitute/Tangram/master/figures/tangram_overview.png)
+
 ![Model architecture](docs/Figs/Workflow.png)
 
 For more details, please check out our [publication](https://doi.org/10.1038/s41587-022-01284-4).
