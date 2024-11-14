@@ -58,21 +58,6 @@ To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [scanpy
     import sodirac as sd
 ```
 
-
-## Installation
-
-The `DIRAC` package can be installed via conda using one of the following commands:
-
-```sh
-conda install -c conda-forge -c bioconda sodirac  
-```
-
-Or, it can also be installed via pip:
-
-```sh
-pip install sodirac
-```
-
 > Installing within a
 > [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 > is recommended.
