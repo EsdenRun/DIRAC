@@ -40,6 +40,25 @@ For more details, please check out our [publication](https://github.com/EsdenRun
 └── README.md
 ```
 
+## How to install Tangram
+
+To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [scanpy](https://scanpy.readthedocs.io/en/stable/) installed. If you need more details on the dependences, look at the `environment.yml` file. 
+
+* set up conda environment for DIRAC
+```
+    conda env create -f environment.yml
+```
+* install sodirac from shell:
+```
+    conda activate dirac-env
+    pip install sodirac
+```
+* To start using DIRAC, import DIRAC in your jupyter notebooks or/and scripts 
+```
+    import sodirac as sd
+```
+
+
 ## Installation
 
 The `DIRAC` package can be installed via conda using one of the following commands:
