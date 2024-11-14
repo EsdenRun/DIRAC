@@ -3,8 +3,10 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+dependencies:
   - python=3.9
-  - pip
+  - rpy2
+  - conda-forge::r-yarrr
   - pip:
       - torch==2.1.0 --extra-index-url https://download.pytorch.org/whl/cu118
       - absl-py==2.1.0
