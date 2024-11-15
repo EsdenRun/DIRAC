@@ -14,10 +14,10 @@ from torch_geometric.utils import to_undirected
 from torchvision import transforms
 import torchvision
 
-from dataprep import GraphDS, GraphDataset, GraphDataset_unpaired
-from model import integrate_model, annotate_model
-from trainer import train_integrate, train_annotate
-from hyper import *
+from .dataprep import GraphDS, GraphDataset, GraphDataset_unpaired
+from .model import integrate_model, annotate_model
+from .trainer import train_integrate, train_annotate
+from .hyper import *
 
 
 #########################################################
