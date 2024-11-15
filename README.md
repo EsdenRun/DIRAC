@@ -26,16 +26,11 @@ For more details, please check out our [publication](https://github.com/EsdenRun
 
 ```
 .
-├── sodirac                  # Main Python package
+├── sodirac                 # Main Python package
 ├── data                    # Data files
-├── evaluation              # Method evaluation pipelines
-├── experiments             # Experiments and case studies
-├── tests                   # Unit tests for the Python package
 ├── docs                    # Documentation files
-├── custom                  # Customized third-party packages
-├── packrat                 # Reproducible R environment via packrat
-├── env.yaml                # Reproducible Python environment via conda
-├── pyproject.toml          # Python package metadata
+├── environment.yaml        # Reproducible Python environment via conda
+├── requirements.yaml       # Python packages required for issuing DIRAC
 ├── LICENSE
 └── README.md
 ```
