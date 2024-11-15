@@ -8,9 +8,9 @@ with open("requirements.txt") as f:
 
 setup(
     name="sodirac",
-    version="0.1.1",
-    description="Domain Invariant Representation through Adversarial Calibration (DIRAC), a graph neural network to integrate spatial multi-omic data into a unified domain 
-    invariant embedding space and to automate cell-type annotation by transferring labels from reference multi-omic single-cell or spatial data.",
+    version="0.1.2",
+    description="""Domain Invariant Representation through Adversarial Calibration (DIRAC), a graph neural network to integrate spatial multi-omic data into a unified domain 
+    invariant embedding space and to automate cell-type annotation by transferring labels from reference multi-omic single-cell or spatial data.""",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="XU CHANG",
