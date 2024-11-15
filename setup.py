@@ -5,10 +5,14 @@ with open("README.md", "r") as fh:
 
 with open("requirements.txt") as f:
     required = f.read().splitlines()
+    
+d = {}
+with open("sodirac/_version.py") as f:
+    exec(f.read(), d)
 
 setup(
     name="sodirac",
-    version="0.1.2",
+    version=d["__version__"],
     description="""Domain Invariant Representation through Adversarial Calibration (DIRAC), a graph neural network to integrate spatial multi-omic data into a unified domain 
     invariant embedding space and to automate cell-type annotation by transferring labels from reference multi-omic single-cell or spatial data.""",
     long_description=long_description,
