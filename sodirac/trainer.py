@@ -30,7 +30,7 @@ from torch.utils.data import DataLoader
 import random
 from typing import Union, Callable, Any, Iterable, List, Optional
 
-from model import MovingAverage, ExponentialMovingAverage
+from .model import MovingAverage, ExponentialMovingAverage
 
 
 logger = logging.getLogger(__name__)
