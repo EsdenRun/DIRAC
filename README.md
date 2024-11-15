@@ -48,7 +48,7 @@ To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [Scanpy
 ```
     conda env create -f environment.yml
 ```
-* install sodirac from shell:
+* install dirac from shell:
 ```
     conda activate dirac-env
     pip install sodirac
