@@ -1,3 +1,7 @@
+r"""
+DIRAC (Domain Invariant Representation through Adversarial Calibration)
+"""
+
 from ._version import __version__
 from .adj import *
 from .dataprep import *
