@@ -55,7 +55,15 @@ pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https
 pip install pyg_lib==0.3.1+pt21cu118 torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
 pip install torch_geometric==2.3.1
 ```
-
+* Tips for selecting the correct CUDA version
+  ** Run the following command to verify CUDA version:
+  ```
+  nvcc --version
+  ```
+  ** Alternatively, use:
+  ```
+  nvidia-smi
+  ```
 
 
 
