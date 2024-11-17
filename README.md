@@ -56,11 +56,11 @@ pip install pyg_lib==0.3.1+pt21cu118 torch_scatter torch_sparse torch_cluster to
 pip install torch_geometric==2.3.1
 ```
 * Tips for selecting the correct CUDA version
-  - Run the following command to verify CUDA version:
+  *- Run the following command to verify CUDA version:
   ```
   nvcc --version
   ```
-  - Alternatively, use:
+  *- Alternatively, use:
   ```
   nvidia-smi
   ```
