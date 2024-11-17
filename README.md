@@ -37,7 +37,7 @@ For more details, please check out our [publication](https://github.com/EsdenRun
 
 ## How to install DIRAC
 
-To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [Scanpy](https://scanpy.readthedocs.io/en/stable/) installed. If you need more details on the dependences, look at the `environment.yml` file. 
+To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [PyG](https://pyg.org/) installed. If you need more details on the dependences, look at the `environment.yml` file. 
 
 * set up conda environment for DIRAC
 ```
