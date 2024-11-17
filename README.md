@@ -71,37 +71,12 @@ pip install torch_geometric==2.3.1
     pip install pyg_lib==0.3.1+pt21cu121 torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
     pip install torch_geometric==2.3.1
     ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## How to install DIRAC
-
-To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [PyG](https://pyg.org/) installed. If you need more details on the dependences, look at the `environment.yml` file. 
-
-* set up conda environment for DIRAC
-```
-    conda create -n dirac-env python=3.9 r-base=4.3.1 rpy2 r-mclust r-yarrr
-```
-* install torch and pyG from shell:
-```
-    conda activate dirac-env
-    pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
-    pip install pyg_lib==0.3.1+pt21cu118 torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+  - For CPU-only
+    ```
+    pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+    pip install pyg_lib==0.3.1+pt21cpu torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
     pip install torch_geometric==2.3.1
-```
+    ```
 * install dirac from shell:
 ```
     pip install sodirac
