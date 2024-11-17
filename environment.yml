@@ -11,9 +11,9 @@ dependencies:
       - torch==2.1.0 --index-url https://download.pytorch.org/whl/cu118
       - torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu118
       - torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
-      - pyg_lib==0.3.1+pt21cu118 -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
-      - torch_scatter -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
-      - torch_sparse -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
-      - torch_cluster -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
-      - torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+      - pyg_lib==0.3.1+pt21cu118 --index-url https://data.pyg.org/whl/torch-2.1.0+cu118.html
+      - torch_scatter --index-url https://data.pyg.org/whl/torch-2.1.0+cu118.html
+      - torch_sparse --index-url https://data.pyg.org/whl/torch-2.1.0+cu118.html
+      - torch_cluster --index-url https://data.pyg.org/whl/torch-2.1.0+cu118.html
+      - torch_spline_conv --index-url https://data.pyg.org/whl/torch-2.1.0+cu118.html
       - torch_geometric==2.3.1
