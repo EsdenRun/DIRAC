@@ -41,7 +41,7 @@ To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [Scanpy
 
 * set up conda environment for DIRAC
 ```
-    conda env create -f environment.yml
+    conda create -n dirac-env python=3.9 r-base=4.3.1 rpy2 r-mclust r-yarrr
 ```
 * install dirac from shell:
 ```
