@@ -77,11 +77,13 @@ pip install torch_geometric==2.3.1
     pip install pyg_lib==0.3.1+pt21cpu torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
     pip install torch_geometric==2.3.1
     ```
-* install dirac from shell:
+
+### Step 3: Install dirac from shell
 ```
     pip install sodirac
 ```
-* To start using DIRAC, import DIRAC in your jupyter notebooks or/and scripts 
+
+### Step 4: Import DIRAC in your jupyter notebooks or/and scripts 
 ```
     import sodirac as sd
 ```
