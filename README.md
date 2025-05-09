@@ -2,7 +2,6 @@
 
 [![stars-badge](https://img.shields.io/github/stars/boxiangliulab/DIRAC?logo=GitHub&color=yellow)](https://github.com/boxiangliulab/DIRAC/stargazers)
 [![pypi-badge](https://img.shields.io/pypi/v/sodirac)](https://pypi.org/project/sodirac)
-[![conda-badge](https://anaconda.org/bioconda/scglue/badges/version.svg)](https://anaconda.org/bioconda/scglue)
 [![docs-badge](https://readthedocs.org/projects/scglue/badge/?version=latest)](https://rundirac.readthedocs.io/en/latest/?badge=latest)
 [![build-badge](https://github.com/gao-lab/GLUE/actions/workflows/build.yml/badge.svg)](https://github.com/EsdenRun/DIRAC/actions/workflows/build.yml)
 [![coverage-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/Jeff1995/e704b2f886ff6a37477311b90fdf7efa/raw/coverage.json)](https://github.com/EsdenRun/DIRAC/actions/workflows/build.yml)
@@ -15,7 +14,7 @@ DIRAC is a Python package, written in [PyTorch](https://pytorch.org/) and based 
 
 DIRAC is a graph neural network to integrate spatial multi-omic data into a unified domain-invariant embedding space and to automate cell-type annotation by transferring labels from reference spatial or single-cell multi-omic data.
 
-DIRAC primarily includes two integration paradigms: vertical integration and horizontal integration, which differ in their selection of anchors. In vertical integration, multiple data modalities from the same cells are jointly analyzed, using cell correspondences in single-cell data or spot correspondences in spatial data as anchors for alignment. In horizontal integration, the same data modality from distinct groups of cells is aligned using genomic features as anchors. The best way to familiarize yourself with DIRAC is to check out [our tutorial](https://github.com/EsdenRun/DIRAC/tree/main/docs/source/notebooks) and [our documentation](https://dirac-tutorial.readthedocs.io/en/latest/).
+DIRAC primarily includes two integration paradigms: vertical integration and horizontal integration, which differ in their selection of anchors. In vertical integration, multiple data modalities from the same cells are jointly analyzed, using cell correspondences in single-cell data or spot correspondences in spatial data as anchors for alignment. In horizontal integration, the same data modality from distinct groups of cells is aligned using genomic features as anchors. The best way to familiarize yourself with DIRAC is to check out [our tutorial](https://github.com/boxiangliulab/DIRAC/tree/main/docs/source/notebooks) and [our documentation](https://dirac-tutorial.readthedocs.io/en/latest/).
 
 
 ![Model architecture](https://raw.githubusercontent.com/EsdenRun/DIRAC/main/docs/Figs/Workflow.png)
@@ -95,4 +94,4 @@ pip install torch_geometric==2.3.1
 ## Usage
 
 Please checkout the documentations and tutorials at
-[dirac.readthedocs.io](https://rundirac.readthedocs.io/en/latest/).
+[dirac.readthedocs.io](https://dirac-tutorial.readthedocs.io/en/latest/).
